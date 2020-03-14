@@ -1,10 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import '@fortawesome/fontawesome-free/css/all.css' //linked in stylesheet
+import './index.scss'; // ./ indicates its current directory/project
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
+import AppProvider from './context-provider'
+// import 'bootstrap/dist/css/bootstrap.min.css' //take this out to override colors
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+
+ReactDOM.render(
+    <AppProvider />, document.getElementById('root') 
+    );
+
+// <App age={18}/>, 
+// document.getElementById('root')
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -7,6 +7,45 @@
   pointer-events: none;
 }
 
+/* Style here or in app.js using react
+.handicon {
+  font-size: 4rem;
+  color; blue;
+}
+*/
+
+img {
+  height:55px;
+}
+
+li {
+  list-style: none;
+}
+
+.chemImg {
+  height:100px;
+  margin-right: auto;
+  margin-left: auto;
+  display:block;
+}
+
+.foot {
+  text-align: center;
+}
+
+.nav a {
+  font-size: 20px;
+  color:#F8B195;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color:#F8B195;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +53,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2A363B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

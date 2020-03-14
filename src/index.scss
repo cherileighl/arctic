@@ -1,0 +1,42 @@
+// //import the og's
+// @import "../node_modules/bootstrap/scss/functions"; //use ~ with scss
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// $ is used for variable
+$primary:       #F67280;
+$secondary:     #C06C84;
+$success:       #6C5B7B;
+$info:          #355C7D;
+$warning:       #99B898;
+$danger:        #FECEAB;
+$light:         #F8B195;
+$dark:          #2A363B;
+
+//import all of bootstrap after it's changed
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*
+.redp {
+  p {
+    color: red;
+  }
+  i {
+    color: purple;
+  }
+}
+*/
